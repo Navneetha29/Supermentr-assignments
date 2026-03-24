@@ -10,7 +10,6 @@ body {
     background: white;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 input {
@@ -20,19 +19,18 @@ input {
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #3498db;
-    border: none;
+    padding: 10px;
+    background: #3498db;
     color: white;
+    border: none;
     cursor: pointer;
 }
 
-.error {
+small {
     color: red;
-    font-size: 12px;
+    display: block;
 }
 
-#successMessage {
+#successMsg {
     color: green;
-    margin-top: 10px;
 }
